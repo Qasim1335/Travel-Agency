@@ -1,0 +1,217 @@
+.navbar-brand img{
+    width: 170px;
+    border-radius: 10px;
+    margin: 0px;
+    transition: all ease-in-out .5s;
+}
+.navbar-brand img:hover{
+    scale: 1.03;
+}
+/* body{
+    background-color: ;
+} */
+
+#navbarNavDropdown{
+    display: flex;
+    justify-content: space-between;
+}
+#navbarNavDropdown li{
+    margin: 5px;
+}
+
+.nav-item a{
+    font-size: 20px;
+}
+
+#head{
+    background-color: rgb(53, 53, 53);
+    padding-top: 6px;
+    height: 34px;
+}
+#head p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    word-spacing: 2px;
+}
+/* #Social-Icons li {
+display: inline;
+
+}
+i{
+    color: rgb(141, 16, 16);
+} */
+
+
+.carousel img{
+    height: 650px;
+}
+
+h3{
+    font-family:cursive;
+    margin-top: 90px;
+    color: orange;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+#card img{
+    width: 425px;
+    justify-content: space-around;
+    height: 500px;
+    opacity: 0.8;
+    transition: all ease 0.5s;
+    overflow: hidden;
+    margin: 1px;
+    /* border: 6px solid; */
+}
+#card img:hover{
+    opacity: 1;
+    transition: all ease-in-out 0.2s;
+    /* object-fit: cover; */
+    scale: 1.001;
+
+}
+
+button{
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: white;
+    color: orangered;
+    /* border-color: orangered; */
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    margin:50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: solid 1px orangered;
+    transition: all ease .5s;
+}
+button:hover{
+    color: white;
+    background-color: orangered;
+    /* border: hidden; */
+}
+
+#lc img{
+    height: 500px;
+    width: 33%;
+    opacity: 0.7;
+}
+#lc img:hover{
+    opacity: 1;
+    transition: all ease-in-out .2s;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type=text],[type=email]{
+    background-color:  rgb(43, 43, 43);
+    width: 30%;
+    margin-top: 50px;
+    padding: 10px;
+    border: solid white 5px;
+    font-size: 20px;
+    color: white;
+    padding-left: 15px; 
+    margin: 5px;
+}
+/* input[type=email]{
+    border-left: none;
+} */
+
+input, #sub{
+    background-color:  rgb(43, 43, 43);
+    width: 61%;
+    margin-top: 50px;
+    padding: 10px;
+    padding-left: 15px;
+    border: solid white 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+textarea{
+    background-color:  rgb(43, 43, 43);
+    width: 61%;
+    margin-top: 50px;
+    padding: 10px;
+    border: solid white 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.box{
+    width: 33%;
+    text-align: center;
+}
+.box h2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#hajj{
+    opacity: 0.8;
+    border: 6px solid ;
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+#hajj:hover{
+    opacity: 1;
+    scale: 1.01;
+}
+/* 
+.carousel-inner .carousel-item {
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+  } */
+
+  i{
+    color: orangered;
+    padding-top: 10px;
+    padding-left: 4px;
+  }
+button i:hover{
+    color: white;
+}
+
+/* .nav-link{
+} */
+
+#SearchBtn{
+    height: 60px;
+    width: 100px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+input[type=search]{
+    width: auto;
+    margin: 0px;
+    font-size: 20px
+}
+.dropdown-menu a{
+    color: aliceblue;
+}
+    .dropdown-menu{
+    background-color: rgb(29, 29, 29);
+    border: 5px solid white;
+    border-right-color: rgb(19, 19, 19);
+    border-left-color: rgb(19, 19, 19);
+}

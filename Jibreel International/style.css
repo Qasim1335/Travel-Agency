@@ -1,0 +1,298 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url(https://media.istockphoto.com/id/1347283666/photo/black-gradation-half-tone-pattern-on-red-gradient-background-abstract-red-graphic-background.webp?b=1&s=170667a&w=0&k=20&c=A9LFWEd4AuaLijm2JlVtDet9IEKEP8UYFV2VW5XE7ow=);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.navbar-nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin: 15px;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: aliceblue;
+}
+
+ul {
+    display: none;
+    background-color: rgb(22, 22, 22);
+    color: whitesmoke;
+    width: 60px;
+}
+
+li {
+    text-align: center;
+}
+
+.carousel-item img {
+    height: 550px;
+    object-position: center;
+}
+
+h2 {
+    font-size: 70px;
+    color: white;
+    margin-left: 130px;
+    margin-bottom: 5px;
+    margin-top: 100px;
+    /* margin-left: 40px; */
+}
+
+h1 {
+    font-size: 100px;
+    margin-left: 130px;
+    color: whitesmoke;
+    margin-bottom: 100px;
+}
+
+span {
+    font-size: 130px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3 {
+    color: whitesmoke;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+
+#categories {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+hr {
+    color: wheat;
+    margin-top: 70px;
+    width: 95vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 400px;
+    /* background-color: rgb(153, 153, 153); */
+    background-image: url(BGCARD.jpg);
+    background-size: cover;
+    opacity: 0.9;
+    padding: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.card img {
+    height: 300px;
+    width: 255px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.card img:hover {
+    transition: all ease 1s;
+    scale: 1.1;
+    object-fit: cover;
+}
+
+/* .card #img3{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    
+}
+.card:hover #img3{
+    display: inline;
+    margin-top: 3px;
+    padding: 10px;
+    background: url(https://images.unsplash.com/photo-1623310658847-33f12eaab710?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8);
+} */
+
+.card h5 {
+    color: rgb(21, 22, 22);
+    font-weight: bolder;
+    text-align: center;
+    /* text-shadow: 1px 1px; */
+}
+
+.card p {
+    color: rgb(21, 22, 22);
+    /* font-weight: bolder; */
+    text-align: center;
+    /* text-shadow: 1px 1px; */
+}
+
+.card .btn {
+    /* justify-content: center; */
+    background-color: rgb(61, 16, 16);
+    border-radius: 24px;
+    padding-right: 25px;
+    padding-left: 20px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+h4 {
+    color: whitesmoke;
+    margin: 30px;
+    text-align: center;
+    padding: 50px;
+}
+
+/* #Collection{
+    /* // <uniquifier>: Use a unique and descriptive class name */
+/* // <weight>: Use a value from 400 to 700 */
+
+/* .dancing-script-<uniquifier> {
+      font-family: "Dancing Script", cursive;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+} */
+
+.dropdown-menu {
+    background-image: url(186545.jpg);
+    background-size: cover;
+    /* padding-left: 10px; */
+    padding-right: 20px;
+    border-color: aliceblue;
+}
+
+label {
+    /* font-family: ; */
+    color: white;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+input {
+    width: 500px;
+    border: 1px solid;
+    /* margin-top: -100px; */
+    /* border-style: double; */
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+input[type=email] {
+    margin-left: 38px;
+}
+
+input[type=number] {
+    margin-left: 21px;
+}
+
+textarea {
+    margin-left: 130px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.Footer {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-image: url(istockphoto-1347283666-170667a.webp); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 40px 30px 10px;
+}
+
+.Footer .socialIcons {
+    display: flex;
+    justify-content: center;
+    /* color: black; */
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    /* background-image: url(BGCARD.jpg); */
+    /* background-color: rgb(2, 2, 2); */
+    border-radius: 100%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    opacity: 0.7;
+    color: white;
+}
+
+/* .socialIcons a:hover{ */
+/* background-color: white; */
+/* transition: 0.7s; */
+/* } */
+.socialIcons a:hover i {
+    /* color: black; */
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.containerbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+button {
+    margin-left: 130px;
+    border-radius: 15px;
+    background-color: rgb(70, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 13px;
+    border: solid white;
+    border-style: double;
+    padding-bottom: 13px;
+}
+
+button:hover {
+    background-color: white;
+    color: rgb(70, 0, 0);
+    transition: 0.5s;
+    border: solid rgb(167, 0, 0);
+}
+
+/* #conlogo{
+position: relative;
+left: 68%;
+top: 150px;
+
+width: 300px;
+} */
